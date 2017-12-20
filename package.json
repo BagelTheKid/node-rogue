@@ -1,0 +1,23 @@
+{
+  "name": "node-rogue",
+  "version": "1.0.0",
+  "description": "A roguelike done in typescript via node",
+  "main": "app.js",
+  "repository": {
+    "url": "https://github.com/BagelTheKid/node-rogue.git"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "start": "nodemon"
+  },
+  "author": "Nicolas Polhamus",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "ts-node": "^4.0.2"
+  },
+  "dependencies": {
+    "nodemon": "^1.14.0",
+    "typescript": "^2.6.2"
+  }
+}
